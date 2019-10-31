@@ -55,11 +55,27 @@
             }
         },
         {
+            "Key": "230f1fc3-62b4-43ca-8472-6e27d11699bc",
+            "Value": {
+                "id": "980fe24b-1fe3-4fc5-9578-eefd6176e697",
+                "resourcePath": "rooms\\rm_testgame\\rm_testgame.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "27541a3b-3c60-4415-89b5-589555d2f032",
             "Value": {
                 "id": "bf71c5b0-4746-4ed8-ad90-d392facc161a",
                 "resourcePath": "views\\27541a3b-3c60-4415-89b5-589555d2f032.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2aa98d3e-02a8-49ee-9d2f-44eb94c46209",
+            "Value": {
+                "id": "56713d84-b63d-46a1-b383-dcb6218693c5",
+                "resourcePath": "sprites\\spr_Player1\\spr_Player1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -84,6 +100,14 @@
                 "id": "778f951f-3cac-4cd7-a530-c04d802ab94a",
                 "resourcePath": "scripts\\ButtonHover\\ButtonHover.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "40d6f8de-1c94-4933-90d9-e60114866197",
+            "Value": {
+                "id": "4bd8c988-577b-42ca-a786-06f6983799a6",
+                "resourcePath": "objects\\obj_player1\\obj_player1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -215,6 +239,14 @@
             }
         },
         {
+            "Key": "c7870d04-031d-4a99-b29d-96b8f58c935d",
+            "Value": {
+                "id": "a1d2455c-63e6-474e-8225-b7ec167959b8",
+                "resourcePath": "objects\\obj_wall\\obj_wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c91d603b-3f87-4497-9bdc-6767a9277dc0",
             "Value": {
                 "id": "912a9dbd-4281-40d3-bfcf-02c866c8abae",
@@ -267,6 +299,14 @@
             "Value": {
                 "id": "26dde2b9-4da1-47ca-a2e6-cabe7ed92295",
                 "resourcePath": "sprites\\spr_HelpButton\\spr_HelpButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fddeaed8-5715-40aa-833a-d9bb054fe4fc",
+            "Value": {
+                "id": "32917da5-ed2c-4c12-b25d-d4c14c1eb0c4",
+                "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
                 "resourceType": "GMSprite"
             }
         }

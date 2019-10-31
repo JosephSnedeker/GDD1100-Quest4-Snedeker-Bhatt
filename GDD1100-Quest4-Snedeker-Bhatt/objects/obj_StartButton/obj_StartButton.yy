@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_StartButton",
     "eventList": [
-        
+        {
+            "id": "bc53e2f0-adee-4585-8d6c-937ff7547ae4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 6,
+            "m_owner": "778b4989-1349-4eac-a6f9-d9f623257c6e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
