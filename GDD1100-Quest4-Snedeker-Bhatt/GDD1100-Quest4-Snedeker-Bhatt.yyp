@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "1c5aa586-41e5-4473-8159-af1c31722ec7",
+            "Value": {
+                "id": "582c6790-6994-4ecf-8851-27d52bf052fe",
+                "resourcePath": "scripts\\EnemyControl\\EnemyControl.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1cfb5fe0-3222-4c00-9d3d-d7d063f42a41",
             "Value": {
                 "id": "bf47f9a9-e071-4a2e-8a80-79481539afea",
@@ -119,6 +127,38 @@
             }
         },
         {
+            "Key": "4113c1d5-e2f5-49a5-8db3-f3bca3e227d9",
+            "Value": {
+                "id": "ef0024bd-af30-40e8-b8e8-2ba901179f1f",
+                "resourcePath": "objects\\obj_baddie1\\obj_baddie1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "42d91088-d9e1-4792-9615-ebe2c1b601f7",
+            "Value": {
+                "id": "a19a565e-cac0-4b34-8c1b-1cca50c0b4ee",
+                "resourcePath": "sprites\\spr_baddie1\\spr_baddie1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "48083ffc-5550-4264-b893-231b72a4897f",
+            "Value": {
+                "id": "e4b87ddd-d9c8-4f01-be6c-0a58d3765a49",
+                "resourcePath": "scripts\\EnemyVariables\\EnemyVariables.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4a130d4a-3c81-42b4-8a42-b29dddc9e929",
+            "Value": {
+                "id": "46b7a899-da8e-48a2-ad0b-9efd396d54dc",
+                "resourcePath": "scripts\\Baddie1Variables\\Baddie1Variables.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "54352498-f3fb-4b1c-aae2-05171fa6cbf7",
             "Value": {
                 "id": "7a1e1601-51d5-496d-9d46-09214bda24aa",
@@ -132,6 +172,14 @@
                 "id": "7f15526b-bdf6-49a3-a189-09fcba43819b",
                 "resourcePath": "sprites\\spr_StartButton\\spr_StartButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6c20038e-c526-49d0-9cc0-c03f84b125f3",
+            "Value": {
+                "id": "d3531cb8-ef05-4abb-89b8-fb3d8e6f0382",
+                "resourcePath": "scripts\\Baddie1\\Baddie1.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -311,6 +359,14 @@
             }
         },
         {
+            "Key": "f3d71b33-464f-4845-9e92-77f60d25dc78",
+            "Value": {
+                "id": "2bb22ffa-f160-44cc-b2b0-9d82d52ef183",
+                "resourcePath": "objects\\obj_EnemyParent\\obj_EnemyParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f45a4daf-f068-4f33-8c36-2508e05f1bf4",
             "Value": {
                 "id": "26dde2b9-4da1-47ca-a2e6-cabe7ed92295",
@@ -330,7 +386,11 @@
     "script_order": [
         "3fc649e9-4bf6-405a-8902-06e3057265f2",
         "33ebe51f-2bd4-468f-b2ca-ec0b1168039e",
-        "b7e8d836-4c85-4209-942e-6ae41789356a"
+        "b7e8d836-4c85-4209-942e-6ae41789356a",
+        "1c5aa586-41e5-4473-8159-af1c31722ec7",
+        "6c20038e-c526-49d0-9cc0-c03f84b125f3",
+        "4a130d4a-3c81-42b4-8a42-b29dddc9e929",
+        "48083ffc-5550-4264-b893-231b72a4897f"
     ],
     "tutorial": ""
 }
