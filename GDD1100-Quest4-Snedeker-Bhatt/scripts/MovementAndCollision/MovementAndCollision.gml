@@ -4,6 +4,7 @@ key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space);
 key_run = keyboard_check(vk_shift);
 
+
 //calculate movement
 var move = key_right - key_left;
 if(!key_run){
@@ -15,9 +16,10 @@ if(!key_run){
 
 vsp = vsp + grv; 
 
-if(place_meeting(x,y+1, obj_wall)) and (key_jump)
+if(/*place_meeting(x,y+1, obj_wall) and */(key_jump) and (jump > 0))
 {
 		vsp = -30;
+		jump--;
 }
 
 //Horizontal Collision
@@ -34,6 +36,12 @@ x = x + hsp;
 //Vert collision
 if (place_meeting(x, y+vsp, obj_wall))
 {
+	if(doubleJump){		
+		jump = 2;
+	}
+	else{
+		jump = 1;
+	}
 	while (!place_meeting(x,y+sign(vsp), obj_wall))
 	{
 		y = y + sign(vsp);

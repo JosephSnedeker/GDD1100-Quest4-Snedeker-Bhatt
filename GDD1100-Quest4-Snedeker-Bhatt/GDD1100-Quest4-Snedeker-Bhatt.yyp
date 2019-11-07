@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "126b2e24-b205-4cc1-afc8-99e7180bc990",
+            "Value": {
+                "id": "0d8bfc86-75ec-4d38-bc51-129c5b04d9d4",
+                "resourcePath": "scripts\\powerUpTimer\\powerUpTimer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "19e72b5d-fc81-45e0-90c7-b090838af2dc",
+            "Value": {
+                "id": "fb539130-d948-41e4-8989-b054544a9e99",
+                "resourcePath": "objects\\obj_doubleJump\\obj_doubleJump.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1c5aa586-41e5-4473-8159-af1c31722ec7",
             "Value": {
                 "id": "582c6790-6994-4ecf-8851-27d52bf052fe",
@@ -76,6 +92,14 @@
                 "id": "bf71c5b0-4746-4ed8-ad90-d392facc161a",
                 "resourcePath": "views\\27541a3b-3c60-4415-89b5-589555d2f032.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "28d5cf2b-4683-4e30-93d8-81b0f9418b7b",
+            "Value": {
+                "id": "87fab20c-6cfa-46b1-97f4-f8ad4f42f375",
+                "resourcePath": "objects\\obj_PickupParent\\obj_PickupParent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -132,6 +156,14 @@
                 "id": "ef0024bd-af30-40e8-b8e8-2ba901179f1f",
                 "resourcePath": "objects\\obj_baddie1\\obj_baddie1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "422d1660-5cb2-4fb7-af07-2232865b69e2",
+            "Value": {
+                "id": "d056790d-0efd-437c-836f-9907dc008269",
+                "resourcePath": "scripts\\Pickups\\Pickups.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -298,7 +330,7 @@
             "Key": "c386c9fb-29db-43f7-ad92-879d303d3ed2",
             "Value": {
                 "id": "c8221aa4-1945-43e5-8a13-78c801c16bbd",
-                "resourcePath": "sprites\\sprite4\\sprite4.yy",
+                "resourcePath": "sprites\\spr_doubleJump\\spr_doubleJump.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -390,7 +422,9 @@
         "1c5aa586-41e5-4473-8159-af1c31722ec7",
         "6c20038e-c526-49d0-9cc0-c03f84b125f3",
         "4a130d4a-3c81-42b4-8a42-b29dddc9e929",
-        "48083ffc-5550-4264-b893-231b72a4897f"
+        "48083ffc-5550-4264-b893-231b72a4897f",
+        "422d1660-5cb2-4fb7-af07-2232865b69e2",
+        "126b2e24-b205-4cc1-afc8-99e7180bc990"
     ],
     "tutorial": ""
 }
