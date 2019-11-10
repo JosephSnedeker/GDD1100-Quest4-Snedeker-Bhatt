@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1bf5714d-60f7-4db6-92ae-707a0645425e",
+            "Value": {
+                "id": "c5902385-9f49-4183-8f34-c5d0734ddf85",
+                "resourcePath": "scripts\\KillPlayer\\KillPlayer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1c5aa586-41e5-4473-8159-af1c31722ec7",
             "Value": {
                 "id": "582c6790-6994-4ecf-8851-27d52bf052fe",
@@ -180,6 +188,14 @@
                 "id": "e4b87ddd-d9c8-4f01-be6c-0a58d3765a49",
                 "resourcePath": "scripts\\EnemyVariables\\EnemyVariables.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "48cb2fc2-fd1f-4ef1-a347-66a85e36b597",
+            "Value": {
+                "id": "b3297580-9be5-4d24-be4a-c1873724439b",
+                "resourcePath": "sprites\\spr_help\\spr_help.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -424,7 +440,8 @@
         "4a130d4a-3c81-42b4-8a42-b29dddc9e929",
         "48083ffc-5550-4264-b893-231b72a4897f",
         "422d1660-5cb2-4fb7-af07-2232865b69e2",
-        "126b2e24-b205-4cc1-afc8-99e7180bc990"
+        "126b2e24-b205-4cc1-afc8-99e7180bc990",
+        "1bf5714d-60f7-4db6-92ae-707a0645425e"
     ],
     "tutorial": ""
 }

@@ -3,3 +3,4 @@
 MovementAndCollision();
 Pickups();
 powerUpTimer();
+
