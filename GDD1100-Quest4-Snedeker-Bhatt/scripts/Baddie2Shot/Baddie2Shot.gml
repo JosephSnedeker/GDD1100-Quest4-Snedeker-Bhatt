@@ -1,0 +1,1 @@
+motion_set(shootDirection, 5);
