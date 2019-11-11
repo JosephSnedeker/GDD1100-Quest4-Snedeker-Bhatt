@@ -58,3 +58,21 @@ y = y + vsp;
 if (hsp != 0) image_xscale = sign(hsp);
 
 
+if (place_meeting(x + hsp,y, obj_trigger1))
+{
+	
+		room_goto(rm_LvlTwo);
+}
+	
+	if (place_meeting(x + hsp,y, obj_trigger2))
+{
+	
+		room_goto(rm_LvlThree);
+}
+	
+	if (place_meeting(x + hsp,y, obj_trigger3))
+{
+	
+		room_goto(TitleScreen);
+}
+
