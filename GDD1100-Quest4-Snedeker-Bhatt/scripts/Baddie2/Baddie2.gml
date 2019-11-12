@@ -1,6 +1,7 @@
 
 if(controlEnemy){
 	
+	
 // You can write your code in this editor
 	
 	
@@ -11,9 +12,12 @@ if(controlEnemy){
 	//calculate shoot direction
 	
 	
-	if(key_shoot){
+	if(key_shoot && shootTimer < 0){
 		instance_create_depth(x,y,0,obj_baddie2Shot);
+		shootTimer = 20;
 	}
+	shootTimer--;
+	show_debug_message("Shoot Timer: " + string(shootTimer));
 	
 	
 

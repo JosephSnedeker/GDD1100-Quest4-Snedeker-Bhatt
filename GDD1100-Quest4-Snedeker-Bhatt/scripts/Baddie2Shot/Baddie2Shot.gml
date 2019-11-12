@@ -1,1 +1,1 @@
-motion_set(shootDirection, 5);
+motion_set(shootDirection, 7);

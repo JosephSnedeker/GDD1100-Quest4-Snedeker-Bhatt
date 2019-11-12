@@ -4,3 +4,4 @@ vsp = 0;
 grv = 1;
 walksp = 4;
 runsp = 2;
+shootTimer = 20;

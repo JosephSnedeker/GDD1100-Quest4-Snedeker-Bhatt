@@ -9,7 +9,7 @@ if(controlEnemy){
 
 	//calculate movement
 	var move = key_right - key_left;
-	if(!key_run){
+	if(false){
 		hsp = move * walksp;
 	}else{
 		hsp = move * runsp;
