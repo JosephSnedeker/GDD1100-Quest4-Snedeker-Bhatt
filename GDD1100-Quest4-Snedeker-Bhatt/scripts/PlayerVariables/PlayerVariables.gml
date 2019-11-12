@@ -6,3 +6,5 @@ runsp = 10;
 jump = 1;
 doubleJump= false;
 doubleJumpTime = 180;
+float = false;
+floatTime = 180;

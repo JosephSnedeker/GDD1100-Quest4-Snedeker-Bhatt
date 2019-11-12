@@ -18,6 +18,7 @@ vsp = vsp + grv;
 
 if(/*place_meeting(x,y+1, obj_wall) and */(key_jump) and (jump > 0))
 {
+		audio_play_sound(son_jump,1,0);
 		vsp = -30;
 		jump--;
 }
@@ -46,8 +47,21 @@ if (place_meeting(x, y+vsp, obj_wall))
 	{
 		y = y + sign(vsp);
 	}
+	grv = 1.5;
 	vsp = 0;
 }
+
+//float
+if(vsp>0 && keyboard_check(vk_space) && float){
+	grv = .1;
+	audio_play_sound(son_float,1,0);
+}
+if(!keyboard_check(vk_space)){
+	grv = 1.5;
+	audio_stop_sound(son_float);
+}
+
+
 y = y + vsp;
 
 
@@ -73,6 +87,9 @@ if (place_meeting(x + hsp,y, obj_trigger1))
 	if (place_meeting(x + hsp,y, obj_trigger3))
 {
 	
-		room_goto(TitleScreen);
+		room_goto(rm_p1Wins);
+}
+if(y>1050){
+	KillPlayer();
 }
 

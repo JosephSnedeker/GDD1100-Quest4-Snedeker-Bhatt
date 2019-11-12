@@ -1,8 +1,8 @@
 {
-    "id": "513df85a-b2d1-4ac5-a9cb-58106b7ad34a",
+    "id": "7e3e5e36-6e51-43b7-9d5b-838168b646c2",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sound0",
+    "name": "son_doubleJumpCoin",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
