@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "e11e2707-c6f1-4991-8210-4118a45beca3",
+            "Value": {
+                "id": "17b9dd9b-4586-4552-840f-b5118aef77cc",
+                "resourcePath": "objects\\obj_music\\obj_music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e130fffc-8a38-4638-a82b-20d53f9dc4bb",
             "Value": {
                 "id": "fcfe8557-3239-4756-8392-e234a301500c",
@@ -636,6 +644,14 @@
                 "id": "9c436fea-9117-4cfb-9b4d-203824571e18",
                 "resourcePath": "rooms\\rm_LvlThree\\rm_LvlThree.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f55eb6bd-e49d-4f61-8ab3-a3cba6d9b568",
+            "Value": {
+                "id": "c1df2e67-5924-48f5-8d36-f530a82fc284",
+                "resourcePath": "sounds\\son_backgroundMusic\\son_backgroundMusic.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -5,7 +5,7 @@ if(controlEnemy){
 	key_left = keyboard_check(ord("J"));
 	key_right = keyboard_check(ord("L"));
 	key_jump = keyboard_check_pressed(vk_enter);
-	key_run = keyboard_check(vk_backspace);
+	
 
 	//calculate movement
 	var move = key_right - key_left;
